@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                    &kp Y        &kp U  &kp I      &kp O               &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &none          &kp SQT      &kp H        &kp J  &kp K      &lt_to_layer_0 5 L  &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp MINUS      &kp EQUAL    &kp N        &kp M  &kp COMMA  &kp DOT             &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG1  &lt 2 SPACE  &mkp MB1       &lt 1 LANG2  &lt 3 ENTER                                        &kp BACKSPACE
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                      &kp Y        &kp U  &kp I      &kp O               &kp P
+&kp A             &kp S         &kp D         &kp F                   &kp G        &none          &kp BACKSPACE  &kp H        &kp J  &kp K      &lt_to_layer_0 5 L  &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp MINUS      &kp EQUAL      &kp N        &kp M  &kp COMMA  &kp DOT             &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG1  &lt 2 SPACE  &mkp MB1       &lt 1 LANG2    &lt 3 ENTER                                        &kp SQT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp LS(EXCLAMATION)         &kp AT_SIGN      &kp HASH         &kp DOLLAR      &kp PERCENT                                     &kp CARET          &kp AMPERSAND    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5      &none          &kp BACKSLASH  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp EQUAL      &trans         &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &trans           &trans           &trans          &trans            &trans         &trans         &trans                                                                    &kp DEL
+&kp LS(EXCLAMATION)         &kp AT_SIGN      &kp HASH         &kp DOLLAR      &kp PERCENT                               &kp CARET          &kp AMPERSAND    &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5      &none          &kp DEL  &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8    &kp NUMBER_9          &kp NUMBER_0
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp EQUAL      &trans   &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&trans                      &trans           &trans           &trans          &trans            &trans         &trans   &trans                                                                    &kp DEL
             >;
         };
 
@@ -107,10 +107,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
