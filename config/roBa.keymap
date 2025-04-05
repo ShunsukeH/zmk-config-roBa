@@ -27,13 +27,13 @@
         };
 
         muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+            bindings = <&to_layer_0 LA(TAB)>;
+            key-positions = <36 0>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <0 1>;
         };
 
         eq {
