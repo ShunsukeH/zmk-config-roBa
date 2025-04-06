@@ -73,7 +73,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 LANG1  &lt 2 SPACE  &mkp MB1       &lt 1 LANG2  &lt 3 ENTER                                        &kp SQT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
